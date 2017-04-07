@@ -1,0 +1,54 @@
+/* UnderDev specific tweaks */
+
+$ud-backg-col         : #111;
+$ud-fore-col          : #fff;
+$ud-accent1           : #C85E37;
+$ud-accent2           : #794C9E;
+
+.masthead {
+  background-color: $ud-backg-col;
+  border-bottom: none; 
+
+.site-title{
+    font-family: Consolas, 'Inconsolata', monospace;
+    font-size: 20px;
+    .logo-under{
+      color: $ud-accent1;
+    }
+    .logo-development{
+      color: $ud-accent2;
+    }
+  }
+
+  .masthead__inner-wrap{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
+
+
+@media(min-width:48em){
+  .masthead .site-title {
+    font-size: 25px;
+  }
+}
+
+@media(min-width:64em){
+  .masthead .site-title {
+    font-size: 30px;
+  }
+}
+
+@media(min-width:80em){
+  .masthead .site-title {
+    font-size: 40px;
+  }
+}
+
+
+.greedy-nav {
+  background-color: $ud-backg-col;
+  a{
+    color: $ud-fore-col;
+  }
+}
