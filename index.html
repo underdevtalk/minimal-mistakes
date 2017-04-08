@@ -1,0 +1,36 @@
+---
+title: "<a class='site-title' href='/'>{<span class='logo-under'>Under</span>:<span class='logo-development'>Development</span>)</a>"
+layout: default
+date: 2016-03-23T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  #overlay_filter: "0.5"
+  #overlay_image: 
+excerpt: "Subjective on what happened last week in dev and tech."
+intro: 
+  - excerpt: 'Weeks in review:'
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {% include post_feature_list id="intro" type="center" %}
+      <div class="feature__wrapper">
+        <div class="feature__item--center">
+            <p><a href="/posts" class="btn">All posts...</a></p>
+        </div>
+      </div>
+    </section>
+  </article>
+</div>
