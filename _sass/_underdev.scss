@@ -26,6 +26,19 @@ $ud-accent2           : #794C9E;
   }
 }
 
+.page__hero--overlay{
+  .site-title{
+    font-family: Consolas, 'Inconsolata', monospace;
+    text-decoration: none;
+    .logo-under{
+      color: $ud-accent1;
+    }
+    .logo-development{
+      color: $ud-accent2;
+    }
+  }
+}
+
 
 @media(min-width:48em){
   .masthead .site-title {

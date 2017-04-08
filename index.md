@@ -4,10 +4,10 @@ layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://uns plash.com)"
-excerpt: "Subjective on what happened last week in dev nad tech."
+  #overlay_filter: "0.5"
+  #overlay_image: 
+  #caption: "Photo credit: [**Unsplash**](https://uns plash.com)"
+excerpt: "Subjective on what happened last week in dev and tech."
 intro: 
   - excerpt: 'Weeks in review:'
 feature_row:
