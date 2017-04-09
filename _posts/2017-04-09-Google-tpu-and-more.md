@@ -25,3 +25,26 @@ SW:
 https://www.nextplatform.com/2017/04/05/first-depth-look-googles-tpu-architecture/
 
 https://tech.instacart.com/deep-learning-with-emojis-not-math-660ba1ad6cdc
+
+KZ:
+
+[Is the future of self-writing programs near?](https://openreview.net/pdf?id=ByldLrqlx)
+Personally, I don't think so, but this paper proves that for some trivial cases, it's starting to happen.
+
+[Real-time facial reenactment.](http://www.graphics.stanford.edu/~niessner/thies2016face.html)
+Will we see this stuff applied in media or movies soon? Maybe we're seeing it already but we don't know it? Conspiracy theory starts in: 3, 2, 1...
+
+[Zoom in, enhance!](http://www.dailymail.co.uk/sciencetech/article-4201838/Google-reveals-photo-enhancement-tool-sharpen-snaps.html)
+Finally, reality starts to catch up with CSI. Plus you can check how it works by yourself [here](https://github.com/alexjc/neural-enhance).
+
+[Some nice features are coming along with .NET 4.7.](https://blogs.msdn.microsoft.com/dotnet/2017/04/05/announcing-the-net-framework-4-7/)
+Especially for High-DPI WinForms applications that are still alive and kicking.
+
+[Codeplex is shutting down.](https:/blogs.msdn.microsoft.com/bharry/2017/03/31/shutting-down-codeplex/)
+Nothing to see here, move along. But if you're in the 0.01% of developers still using it, you can migrate to GitHub. Or just forget about it and start fresh in GitHub.
+
+[Is webassembly the beginning of the end of the javascript?](http://www.infoworld.com/article/3176681/web-development/webassembly-is-now-ready-for-browsers-to-use.html)
+Unfortunately, I don't think so, but any effort to minimize the javascript usage is a good step.
+
+[A gadget for the shy freelancers in co-working spaces.](http://gethushme.com/)
+But if you're shy to talk in public, won't you be shy about putting this stuff on?
