@@ -1,5 +1,5 @@
 ---
-title: "2017-04-09-Google-tpu-and-more"
+title: "2017-04-09 Google tpu and manager classification"
 categories:
   - "week in review"
 tags:
