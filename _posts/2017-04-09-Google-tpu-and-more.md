@@ -1,17 +1,14 @@
 ---
-title: "2017-04-09"
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  cta_url: "https://unsplash.com"
+title: "2017-04-09-Google-tpu-and-more"
 categories:
-  - Layout
-  - Uncategorized
+  - "week in review"
 tags:
-  - edge case
-  - image
-  - layout
-modified: 
+  - Azure
+  - F#
+  - Google
+  - quantum computing
+  - machine learning
+  - deep learning
 ---
 
 SW: 
