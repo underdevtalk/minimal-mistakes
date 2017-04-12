@@ -1,5 +1,6 @@
+@@ -0,0 +1,58 @@
 ---
-title: "2017-04-09 Google tpu and manager classification"
+title: "2017-04-09 The speed of quantum computing."
 categories:
   - "week in review"
 tags:
@@ -11,22 +12,30 @@ tags:
   - deep learning
 ---
 
-SW: 
-[The speed of quantum computing](https://arstechnica.com/science/2017/04/the-route-to-high-speed-quantum-computing-is-paved-with-error/)
 
-[A look into F# 4.1](https://www.infoq.com/articles/FSharp-4.1)
+[The speed of quantum computing](https://arstechnica.com/science/2017/04/the-route-to-high-speed-quantum-computing-is-paved-with-error/)		#computerscience, #tech, #long
 
-[Blue Green Deployments with Azure](http://faesel.com/Blog/Post?postId=0fd2703c-33e5-423b-a791-bc32cbddf044)
+Quantum computing, if we manage to build customer grade machines, will be the transistor revolution of our time. Through the last years, companies got more serious about it and it's becoming more and more real, but even the simplest things, as **computing speed**, are it are an unknown. A good read giving insight to surprisingly mature world o quantum computing. 
 
-[Spanner paper](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)
+[A look into F# 4.1](https://www.infoq.com/articles/FSharp-4.1)		#microsoft, #Fsharp
 
-[Manager classification](http://no-kill-switch.ghost.io/my-notes-on-looking-for-software-engineering-manager-job/)
+I won't lie. I like F#, the community and where the language is going and for me it is one of the best real-life functional languages. Additionally the 4.1 version doesn't disapoint. A short read.
 
-https://www.nextplatform.com/2017/04/05/first-depth-look-googles-tpu-architecture/
+[Spanner paper](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf)	#long, #google, #spanner, #databases
 
-https://tech.instacart.com/deep-learning-with-emojis-not-math-660ba1ad6cdc
+Spanner made headlines with the claims that it breaks the CAP theorem and is consistent and available in case of partition. This will be no suprise to noone that the truth is not that groundbreaking, but there is some ground to Google's claims. As with any papers a long and technical read, but if someone is interested in distributed systems a should read for sure. 
 
-KZ:
+[Manager classification](http://no-kill-switch.ghost.io/my-notes-on-looking-for-software-engineering-manager-job/)	#not-tech, #carrier 
+
+I don't remember when was the last time when I was saying that any times "yes" or "oh this is so true". A well written post for everyone thinking that there is only Visual Studio, drawing squares in Visio and Excel carrier paths to choose from.
+
+[Deep learning with emojis](https://tech.instacart.com/deep-learning-with-emojis-not-math-660ba1ad6cdc)	#long, #machine-learning
+
+An interesting article about hot to optimize the shoping route. Be warn for better understanding it assumes some knowledge of Kerras, but even without it a nice read. 
+
+[Adrian Cockroft](http://highscalability.com/blog/2017/3/27/faster-networks-cheaper-messages-microservices-functions-edg.html)	#architecture, #cloud
+
+Cockroft is talking how thanks to hardware improvements we will be moving towards lambda architecture. For me a must read -  maybe because I agree with it?
 
 [Is the future of self-writing programs near?](https://openreview.net/pdf?id=ByldLrqlx)
 Personally, I don't think so, but this paper proves that for some trivial cases, it's starting to happen.
@@ -48,3 +57,4 @@ Unfortunately, I don't think so, but any effort to minimize the javascript usage
 
 [A gadget for the shy freelancers in co-working spaces.](http://gethushme.com/)
 But if you're shy to talk in public, won't you be shy about putting this stuff on?
+\ No newline at end of file
