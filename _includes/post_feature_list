@@ -28,12 +28,9 @@
 
         <div class="archive__item-body">
           {% if post.title %}
-            <h2 class="archive__item-title">{{ post.title }}</h2>
+            <a href="{{ f_url }}"><h2 class="archive__item-title">{{ post.title }}</h2></a>
           {% endif %}
 
-          {% if post.url %}
-            <p><a href="{{ f_url }}" class="btn {{ post.btn_class }}">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Continue reading..." }}</a></p>
-          {% endif %}
         </div>
       </div>
     </div>
